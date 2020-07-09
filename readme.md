@@ -1,36 +1,41 @@
 # Foam
 
-👋 Welcome to your new Foam Workspace!
+👋 欢迎来到Foam工作区，Form是一个受到Roam Research启发的个人笔记与知识管理思维导图系统，基于 VSCode + MarkDown + GitHub。
 
-## Getting started
+![示例图](./image/foam-features-dark-mode-demo.png)
+![操作示例](./image/usage.webp)
 
-This documentation assumes that you have a GitHub account and have [Visual Studio Code](https://code.visualstudio.com/) installed on your Linux/MacOS/Windows machine.
+## 安装
 
-1. If you haven't yet, browse over to the main [Foam documentation workspace](https://foambubble.github.io/foam) to get an idea of what Foam is and how to use it.
-2. Press "Use this template" button at [foam-template](https://github.com/foambubble/foam-template/generate) (that's this repository!) to fork it to your own GitHub account. If you want to keep your thoughts to yourself, remember to set the repository private.
-3. [Clone the repository to your local machine](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) and open it in VS Code.
-4. When prompted to install recommended extensions, click **Install all** (or **Show Recommendations** if you want to review and install them one by one)
+假定你已经有GitHub账号，并且已经在你的Linux/MacOS/Windows上安装了[Visual Studio Code](https://code.visualstudio.com/) 。
 
-After setting up the repository, open [.vscode/settings.json](.vscode/settings.json) and edit, add or remove any settings you'd like for your Foam workspace.
+1. 如果还没有准备好，请查看 [Foam工作区](https://foambubble.github.io/foam) 去了解什么是Foam和如何使用。
+2. 点击[foam模板](https://github.com/g00g1e/foam-template/generate) (也就是本项目) 分叉至你的GitHub账号. 如果需要保密，请选择私有项目。
+3. [克隆模板仓库到你的电脑](https://help.github.com/cn/github/creating-cloning-and-archiving-repositories/cloning-a-repository) 并使用VS Code 打开它。
+4. 右下角会弹窗提示推荐安装插件, 点击 **Install all** (如果需要查看具体插件可以点击 **Show Recommendations** 然后再陆续点Install/安装)
 
-To learn more about how to use **Foam**, read the [Recipes](https://foambubble.github.io/foam/recipes) bubbles of the Foam documentation workspace.
+完成以上步骤后，打开[.vscode/settings.json](.vscode/settings.json) 可以按喜好编辑、添加或删除Foam工作区配置。
 
+了解更多 **Foam**, 请查看[Recipes](https://foambubble.github.io/foam/recipes) 
 
-## Using Foam
+## 使用Foam
 
-We've created a few Bubbles (markdown documents) to get you started.
+模板已经创建了一些思维泡泡 (markdown格式) 便于你快速上手。
 
-- [[inbox]] - a place to write down quick notes to be categorised later
-- [[foam-tips]] - tips to get the most out of your Foam workspace
-- [[todo]] - a place to keep track of things to do
+- [[inbox]] - 用于快速收集想法，后续再整理归类。
+- [[foam-tips]] - 充分利用Foam工作区的技巧。
+- [[todo]] - 用于记录待办事项。
 
-## Note on `[[wiki-links]]`
+VS Code中查看图像--可视化信息关联：快捷键Cmd+Shift+P，输入 Show Graph回车；
+VS Code中查看Markdown文档预览： 快捷键Cmd+Shift+V
 
-⚠️ Until [foambubble/foam#16](https://github.com/foambubble/foam/issues/16) is resolved, `[[wiki-links]]` links (like the links above) won't work in the GitHub Markdown preview (i.e. this Readme on github.com). 
+## 注意事项 `[[wiki-links]]`
 
-They should work as expected in VS Code, and in rendered GitHub Pages.
+⚠️ 在 [foambubble/foam#16](https://github.com/foambubble/foam/issues/16) 问题解决之前, `[[wiki-links]]` wiki链接 (如前示例) 无法在GitHub预览中正确显示(例如，本Readme文档)。 
 
-If GitHub preview (or general 100% support with all Markdown tools) is a requirement, for the time being you can use the standard `[description](page.md)` syntax.
+他们只能在VS Code和已渲染的GitHub Pages中正确显示.
+
+如果需要在GitHub预览或者其他markdown编辑器中正确显示链接，请使用标准语法： `[description](page.md)` 。
 
 
 
